@@ -1,0 +1,6 @@
+n= int(input())
+rolle= set(input().split())
+f= int(input())
+rollf= set(input().split())
+output= len(rolle.intersection(rollf))
+print(output)

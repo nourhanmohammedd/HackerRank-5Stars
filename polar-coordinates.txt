@@ -1,0 +1,4 @@
+from cmath import phase
+inp = complex(input())
+print(abs(inp))
+print(phase(inp))
